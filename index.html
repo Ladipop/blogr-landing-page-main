@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header-nav">
+        <figure class="website-logo-container website-logo-container-glass">
+          <img src="./images/logo.svg" alt="logo" class="website-logo" />
+        </figure>
+
+        <!-- Logo position -->
+        <img
+          src="images/icon-hamburger.svg"
+          class="hamburger hamburger-display"
+          alt="hamburger logo (Not the one we eat tho)"
+        />
+        <img
+          src="images/icon-close.svg"
+          class="icon-close icon-close-display"
+          alt="A close icon"
+        />
+        <!-- Logo position -->
+        <nav class="header-main-nav header-main-nav-glass">
+          <nav class="menu">
+            <nav class="product-nav">
+              <!-- Product Navigation -->
+              <p class="product list-trigger">
+                <span class="nav-span product-span"> Product </span>
+                <!-- <img
+                  src="images/icon-arrow-light.svg"
+                  class="white-down-arrow"
+                  alt="white arrow"
+                /> -->
+                <i class="fa-solid fa-chevron-down white-down-arrow"></i>
+              </p>
+
+              <ul class="nav-ul product-nav-ul">
+                <li class="nav-list">Overview</li>
+                <li class="nav-list">Pricing</li>
+                <li class="nav-list">Marketplace</li>
+                <li class="nav-list">Features</li>
+                <li class="nav-list">Integrations</li>
+              </ul>
+            </nav>
+            <!-- Company Navigation -->
+            <nav class="company-nav">
+              <p class="company list-trigger">
+                <span class="nav-span"> Company </span>
+
+                <!-- <img
+                  src="images/icon-arrow-light.svg"
+                  class="white-down-arrow"
+                  alt="white arrow"
+                /> -->
+                <i class="fa-solid fa-chevron-down white-down-arrow"></i>
+              </p>
+
+              <ul class="nav-ul company-nav-ul">
+                <li class="nav-list">About</li>
+                <li class="nav-list">Team</li>
+                <li class="nav-list">Blog</li>
+                <li class="nav-list">Careers</li>
+              </ul>
+            </nav>
+            <!-- Connect Navigation -->
+            <nav class="connect-nav">
+              <p class="connect list-trigger">
+                <span class="nav-span"> Connect </span>
+
+                <!-- <img
+                  src="images/icon-arrow-light.svg"
+                  class="white-down-arrow"
+                  alt="white down arrow"
+                /> -->
+                <i class="fa-solid fa-chevron-down white-down-arrow"></i>
+              </p>
+
+              <ul class="nav-ul connect-nav-ul">
+                <li class="nav-list">Contact</li>
+                <li class="nav-list">Newsletter</li>
+                <li class="nav-list">LinkedIn</li>
+              </ul>
+            </nav>
+          </nav>
+          <nav class="login-nav">
+            <a href="#" class="login"> Login </a>
+            <a href="#" class="sign-up">Sign Up</a>
+          </nav>
+        </nav>
+      </nav>
+      <h1>A modern publishing platform</h1>
+      <p class="header-paragraph">
+        Grow your audience and build your online brand
+      </p>
+      <div class="btns-container">
+        <button class="btn start-for-free">Start for Free</button>
+        <button class="btn learn-more">Learn More</button>
+      </div>
+    </header>
+
+    <!-- Intro section -->
+    <section class="intro-section">
+      <h2 class="intro-header">Designed for the future</h2>
+      <article class="intro-content">
+        <img
+          src="images/illustration-editor-mobile.svg"
+          class="mobile-desktop-illustration"
+          alt="Image of a desktop screen"
+        />
+        <div class="intro-text-content">
+          <h3>Introducing an extensible editor</h3>
+          <p>
+            Blogr features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            images, videos, and Markdown. Extensibility with plugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+
+          <h3>Robust content management</h3>
+          <p>
+            Flexible content management enables users to easily move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you're in full control.
+          </p>
+        </div>
+
+        <article class="img-content"></article>
+      </article>
+    </section>
+
+    <!-- Infrastructure section -->
+    <section class="infrastructure-section">
+      <img
+        src="images/illustration-phones.svg"
+        class="illustration-phones"
+        alt="An image of two phones; One has the logo of this website that says 'Blogr'"
+      />
+      <div class="inf-text">
+        <h2 class="inf-header">State of the Art Infrastructure</h2>
+        <p class="inf-paragraph">
+          With reliability and speed in mind, worldwide data centers provide the
+          backbone for ultra-fast connectivity. This ensures your site will load
+          instantly, no matter where your readers are, keeping your site
+          competitive.
+        </p>
+      </div>
+    </section>
+
+    <!-- Uses Section -->
+    <section class="uses-section">
+      <article class="img-content uses-img-content">
+        <img
+          src="images/illustration-laptop-mobile.svg"
+          class="mobile-laptop-illustration"
+          alt="The image of a laptop"
+        />
+      </article>
+      <article class="uses-text-content">
+        <h3>Free, open, simple</h3>
+        <p>
+          Blogr is a free and open source application backed by a large
+          community of helpful developers. It supports features such as code
+          syntax highlighting, RSS feeds, social media integration, third-party
+          commenting tools, and works seamlessly with Google Analytics. The
+          architecture is clean and is relatively easy to learn.
+        </p>
+        <h3>Powerful tooling</h3>
+        <p>
+          Batteries included. We built a simple and straightforward CLI tool
+          that makes customization and deployment a breeze, but capable of
+          producing even the most complicated sites.
+        </p>
+      </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <img src="images/logo.svg" class="logo" />
+      <div class="footer-container-1 footer-container">
+        <ul class="footer-ul">
+          <li class="list"><span class="footer-span">Product</span></li>
+          <li class="list">Overview</li>
+          <li class="list">Pricing</li>
+          <li class="list">Marketplace</li>
+        </ul>
+      </div>
+      <div class="footer-container-2 footer-container">
+        <ul class="footer-ul">
+          <li class="list">
+            <span class="footer-span">Company</span>
+          </li>
+          <li class="list">About</li>
+          <li class="list">Team</li>
+          <li class="list">Blog</li>
+          <li class="list">Careers</li>
+        </ul>
+      </div>
+      <div class="footer-container-3 footer-container">
+        <ul class="footer-ul">
+          <li class="list">
+            <span class="footer-span">Connect</span>
+          </li>
+          <li class="list">Contact</li>
+          <li class="list">Newsletter</li>
+          <li class="list">LinkedIn</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="Script.js"></script>
+  </body>
+</html>
