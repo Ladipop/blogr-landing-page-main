@@ -39,11 +39,13 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.remove("hamburger-display");
   hamburger.style.display = "none";
   closeIcon.classList.add("icon-close-display");
-  headerMainNav.style.display = "flex";
+  headerMainNav.classList.add("slide-up");
+  // headerMainNav.classList.remove("fade-out");
 });
 closeIcon.addEventListener("click", () => {
   hamburger.style.display = "block";
   hamburger.classList.add("hamburger-display");
   closeIcon.classList.remove("icon-close-display");
-  headerMainNav.style.display = "none";
+  headerMainNav.classList.remove("slide-up");
+  // headerMainNav.classList.add("fade-out");
 });
