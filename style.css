@@ -717,6 +717,9 @@ footer {
   .uses-text-content p {
     margin-bottom: 2.5rem;
   }
+  header h1 {
+    margin-bottom: 4rem;
+  }
 }
 
 @media (max-width: 750px) {
