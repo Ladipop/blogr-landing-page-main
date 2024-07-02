@@ -634,6 +634,12 @@ footer {
     width: 60%;
     padding: 0.7rem 1rem;
   }
+  .sign-up:hover,
+  .sign-up:active {
+    background: linear-gradient(var(--White), var(--White));
+    color: var(--Very-dark-desaturated-blue);
+    border: 1px solid var(--Light-red);
+  }
   .login:link,
   .login:visited {
     color: var(--Very-dark-desaturated-blue);
